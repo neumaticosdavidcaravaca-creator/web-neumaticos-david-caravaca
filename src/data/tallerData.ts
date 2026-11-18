@@ -349,7 +349,7 @@ export const MECHANICS_SERVICES: MechanicService[] = [
     shortDesc: 'Lubricantes sintéticos homologados (5W30, 5W40, 0W20) con sustitución de filtro y diagnosis.',
     fullDesc: 'Utilizamos exclusivamente aceites de primeras marcas según las especificaciones exactas del fabricante de tu vehículo. Incluye sustitución de arandela de cárter, filtro de aceite y reseteo del intervalo de servicio en cuadro.',
     duration: '35 - 45 min',
-    startingPrice: 'Desde 65€',
+    startingPrice: 'Desde 85€',
     category: 'mantenimiento',
     recommendedInterval: 'Cada 15.000 – 20.000 km o 1 año',
     features: [
@@ -366,7 +366,7 @@ export const MECHANICS_SERVICES: MechanicService[] = [
     shortDesc: 'Inspección del espesor de pastillas, discos y comprobación del punto de ebullición del líquido de frenos.',
     fullDesc: 'La máxima seguridad al volante. Montamos marcas de primer equipo (Brembo, Ferodo, Bosch) garantizando una frenada progresiva, sin chirridos y con total potencia en detenciones de emergencia.',
     duration: '45 - 60 min',
-    startingPrice: 'Desde 45€',
+    startingPrice: 'Desde 85€',
     category: 'seguridad',
     recommendedInterval: 'Inspección cada 20.000 km',
     features: [
@@ -383,7 +383,7 @@ export const MECHANICS_SERVICES: MechanicService[] = [
     shortDesc: 'Alineación computarizada para evitar el desgaste irregular del neumático y desvíos en carretera.',
     fullDesc: 'Nuestro banco de alineación óptica 3D mide en segundos las cotas de convergencia, caída y avance de ambos ejes con precisión milimétrica, protegiendo tus neumáticos y reduciendo el consumo.',
     duration: '30 - 40 min',
-    startingPrice: 'Desde 35€',
+    startingPrice: 'Desde 40€',
     category: 'seguridad',
     recommendedInterval: 'Al cambiar neumáticos o tras golpes con bordillos',
     features: [
@@ -399,7 +399,7 @@ export const MECHANICS_SERVICES: MechanicService[] = [
     shortDesc: 'Comprobación de estado de salud de la batería, alternador y lectura de códigos de avería OBD2.',
     fullDesc: 'Disponemos de stock permanente de baterías convencionales y AGM/EFB para sistemas Start-Stop. Sustitución inmediata sin pérdida de códigos de radio o configuraciones de centralita.',
     duration: '20 min',
-    startingPrice: 'Desde 65€',
+    startingPrice: 'Desde 30€',
     category: 'diagnostico',
     recommendedInterval: 'Comprobación gratuita antes del invierno',
     features: [
@@ -447,7 +447,7 @@ export const MECHANICS_SERVICES: MechanicService[] = [
     shortDesc: 'Reparación profesional interior tipo seta (PRP) cumpliendo la normativa europea de seguridad vial.',
     fullDesc: 'No nos limitamos a una mecha provisional externa. Desmontamos el neumático, inspeccionamos la estructura interna y vulcanizamos un parche tipo sombrilla que sella permanentemente la banda de rodadura.',
     duration: '15 - 20 min',
-    startingPrice: '12€',
+    startingPrice: 'Desde 15€',
     category: 'seguridad',
     recommendedInterval: 'Ante pérdida de presión o clavos',
     features: [

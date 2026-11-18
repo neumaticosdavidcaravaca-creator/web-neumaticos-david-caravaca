@@ -20,8 +20,6 @@ export function Hero({ onOpenBooking, onScrollToSearch }: HeroProps) {
           <div className="lg:col-span-7 space-y-6">
             {/* Clean unboxed editorial kicker */}
             <div className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-wider text-emerald-400">
-              <span>Caravaca de la Cruz</span>
-              <span aria-hidden="true">·</span>
               <span>10 Años de Experiencia</span>
               <span aria-hidden="true">·</span>
               <span>Seguimos Dejando Huellas</span>
