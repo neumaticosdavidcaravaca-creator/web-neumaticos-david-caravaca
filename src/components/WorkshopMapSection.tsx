@@ -105,6 +105,7 @@ export function WorkshopMapSection() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Ubicación Neumáticos David Caravaca"
+            />
           </div>
         </div>
       </div>
