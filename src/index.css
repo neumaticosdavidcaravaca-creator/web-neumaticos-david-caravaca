@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-brand-apple: #4ade80;
+  --color-brand-apple-dark: #16a34a;
+  --color-brand-lime: #a3e635;
+  --color-brand-dark: #070d14;
+  --color-brand-card: #0c1521;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #060b11;
+  color: #f1f5f9;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Apple Green Diffused Gradient Utilities */
+.bg-apple-gradient {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 50%, #15803d 100%);
+}
+
+.bg-apple-gradient-soft {
+  background: linear-gradient(135deg, rgba(74, 222, 128, 0.15) 0%, rgba(34, 197, 94, 0.08) 50%, transparent 100%);
+}
+
+.text-apple-gradient {
+  background: linear-gradient(135deg, #86efac 0%, #4ade80 40%, #a3e635 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-apple {
+  box-shadow: 0 0 35px -5px rgba(74, 222, 128, 0.25);
+}
+
+.glow-apple-sm {
+  box-shadow: 0 0 15px -3px rgba(74, 222, 128, 0.3);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #060b11;
+}
+::-webkit-scrollbar-thumb {
+  background: #142232;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}

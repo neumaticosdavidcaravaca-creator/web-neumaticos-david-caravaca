@@ -1,0 +1,6 @@
+{
+  "name": "Neumáticos David Caravaca",
+  "description": "Taller especializado en neumáticos nuevos y de ocasión garantizados y mecánica rápida profesional en Caravaca de la Cruz, Murcia. Más de 10 años de experiencia al servicio de tu vehículo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
