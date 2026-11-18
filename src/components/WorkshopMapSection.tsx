@@ -337,27 +337,36 @@ export function WorkshopMapSection() {
                 <WorkshopMapViewport />
               </APIProvider>
             ) : (
-              <div className="w-full h-full flex flex-col items-center justify-center p-8 text-center space-y-4">
-                <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center">
-                  <MapPin className="w-6 h-6" />
-                </div>
-                <div className="space-y-1 max-w-md">
-                  <div className="text-base font-bold text-white font-display">
-                    {WORKSHOP_INFO.fullName}
+              <div className="w-full h-full relative flex flex-col items-center justify-center p-8 text-center">
+                <img
+                  src={WORKSHOP_INFO.images.workshopFloor}
+                  alt="Instalaciones de Neumáticos David en Caravaca de la Cruz"
+                  referrerPolicy="no-referrer"
+                  className="absolute inset-0 w-full h-full object-cover opacity-25"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-slate-950/75" />
+                <div className="relative z-10 flex flex-col items-center space-y-4">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-500/15 border border-emerald-500/35 text-emerald-400 flex items-center justify-center shadow-lg">
+                    <MapPin className="w-6 h-6" />
                   </div>
-                  <p className="text-xs text-slate-400">
-                    {WORKSHOP_INFO.address}, {WORKSHOP_INFO.postalCode} {WORKSHOP_INFO.city} ({WORKSHOP_INFO.region})
-                  </p>
+                  <div className="space-y-1.5 max-w-md">
+                    <div className="text-base font-bold text-white font-display">
+                      {WORKSHOP_INFO.fullName}
+                    </div>
+                    <p className="text-xs text-slate-300 leading-relaxed">
+                      {WORKSHOP_INFO.address}, {WORKSHOP_INFO.postalCode} {WORKSHOP_INFO.city} ({WORKSHOP_INFO.region})
+                    </p>
+                  </div>
+                  <a
+                    href={WORKSHOP_INFO.googleMapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-lime-400 to-emerald-500 hover:from-lime-300 hover:to-emerald-400 text-slate-950 font-bold text-xs shadow-lg shadow-emerald-500/20 transition-all"
+                  >
+                    <Navigation className="w-4 h-4" />
+                    <span>Ver Ubicación en Google Maps</span>
+                  </a>
                 </div>
-                <a
-                  href={WORKSHOP_INFO.googleMapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-lime-400 to-emerald-500 text-slate-950 font-bold text-xs shadow-lg shadow-emerald-500/20"
-                >
-                  <Navigation className="w-4 h-4" />
-                  <span>Ver Ubicación en Google Maps</span>
-                </a>
               </div>
             )}
           </div>

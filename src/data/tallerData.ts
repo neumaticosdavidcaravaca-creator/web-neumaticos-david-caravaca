@@ -19,7 +19,7 @@ export const WORKSHOP_INFO = {
   city: 'Caravaca de la Cruz',
   region: 'Murcia',
   postalCode: '30400',
-  googleMapsUrl: 'https://maps.google.com/?q=Caravaca+de+la+Cruz+Murcia+neumaticos',
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Neumaticos+David+Caravaca+de+la+Cruz+Murcia',
   openingHours: [
     { days: 'Lunes a Viernes', hours: '09:00 – 14:00 / 15:30 – 19:00' },
     { days: 'Sábados', hours: '09:00 – 13:00' },
