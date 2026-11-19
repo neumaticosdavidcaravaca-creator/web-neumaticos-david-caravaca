@@ -99,7 +99,7 @@ export function WorkshopMapSection() {
           {/* Tarjeta Derecha: Mapa Real Interactivo */}
           <div className="lg:col-span-7 bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden min-h-[380px] shadow-xl">
             <iframe
-             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.5522325251422!2d-1.9013733355460964!3d38.05119068740924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd65ac063cb6f04d%3A0x5e01d209fc1a72c7!2sNeum%C3%A1ticos%20David%20Caravaca!5e1!3m2!1ses!2ses!4v1795019458738!5m2!1ses!2ses">
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.5522325251422!2d-1.9013733355460964!3d38.05119068740924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd65ac063cb6f04d%3A0x5e01d209fc1a72c7!2sNeum%C3%A1ticos%20David%20Caravaca!5e1!3m2!1ses!2ses!4v1795019458738!5m2!1ses!2ses"
               className="w-full h-full min-h-[380px] border-0"
               allowFullScreen
               loading="lazy"
